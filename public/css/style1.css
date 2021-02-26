@@ -1,0 +1,68 @@
+* {
+    margin: 1;
+    padding: 2;
+    
+    font-family: 'Arsenal', sans-serif;
+}
+
+html {
+    font-size: 93.75%;
+}
+
+body {
+    background: #f8aca7;
+}
+
+header {
+    background: #fee1c0;
+    padding: 0.5rem;
+    
+    height: 116px;
+    top: 0;
+    left: 0;
+    position: sticky;
+    text-align: center;
+    justify-content: center;
+
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.logomarca {
+    width: 106px;
+    height: 106px;
+    justify-content: center;
+}
+
+.card {
+    width: min(90vw, 800px);
+    margin: auto;
+    margin-bottom: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.moda {
+    margin: auto;
+    font-size: 2rem;
+    color: white;   
+}
+
+ footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 16px 0;
+    display: block;
+    color: #fee1c0;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+}

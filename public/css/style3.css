@@ -1,0 +1,112 @@
+* {
+    margin: 1;
+    padding: 2;
+    
+    font-family: 'Arsenal', sans-serif;   
+}
+
+html {
+    font-size: 93.75%;
+}
+
+body {
+    background: #f8aca7;
+    text-align: center;
+    color: #fee1c0;
+    font-size: 1.4rem;
+}
+
+
+
+header {
+    background: #fee1c0;
+    padding: 0.5rem;
+    
+    height: 116px;
+    top: 0;
+    left: 0;
+    position: sticky;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #fee1c0;
+}
+
+.logomarca {
+    width: 106px;
+    height: 106px;
+    justify-content: center;
+}
+
+.pics {
+    width: 136px;
+    height: 136px;
+    border-radius: 0.5rem;
+}
+
+.pics2 {
+    width: 300px;
+    height: 200px;
+    border-radius: 0.5rem;
+}
+
+.card p {
+    width: 8.25rem;
+    height: 8.25rem;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.card {
+    background: #fee1c0;
+    padding: 0.25rem 0.25rem;
+    height: 10rem;
+    border-radius: 0.15rem;
+    width: min(90vw, 800px);
+    margin: auto;
+    margin-bottom: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #f4857a;
+    font-size: 1rem;
+}
+
+
+
+.frase {
+    color: #f4857a;
+    font-size: 1rem;
+}
+/* 
+.moda {
+    margin: auto;
+    font-size: 2rem;
+    color: white;   
+}
+ */
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 16px 0;
+    color: #f4857a;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+}

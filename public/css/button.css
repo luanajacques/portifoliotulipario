@@ -1,0 +1,119 @@
+html {
+    font-size: 93.75%;
+}
+
+.primary-button {
+    margin-top: 1rem;
+    width: 40%;
+    height: 3rem;
+    border: 0;
+
+    
+
+    cursor: pointer;
+
+    background: #fee1c0;
+    
+    color: #f4857a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color .2s;
+}
+
+.primary-button:hover {
+    background: #fed497;
+}
+
+.button-select button:first-child {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child {
+    border-radius: 0 2rem 2rem 0;
+}
+
+.back-button {
+    margin-top: 1rem;
+    width: 20%;
+    height: 3rem;
+    border: 0;
+
+    
+
+    cursor: pointer;
+
+    background: #fee1c0;
+    
+    color: #f4857a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color .2s;
+}
+
+#ok-button {
+    margin-top: 1rem;
+    width: 50%;
+    height: 2rem;
+    border: 0;
+
+    
+
+    cursor: pointer;
+
+    background: #f4857a;
+    
+    color: #fee1c0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color .2s;
+    border-radius: 2rem;
+    
+    
+}
+
+.back-button:hover {
+    background: #fed497;
+}
+
+#ok-button:hover,
+.button-select button:first-child:hover,
+.button-select button:last-child:hover {
+    background: #f8aca7;
+}
+
+.button-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button-select button {
+    height: 2rem;
+    background: #f4857a;
+    border: none;
+    color: #fee1c0;
+    cursor: pointer;
+}
+
+.button-select button.active {
+    background: #f4857a;
+    border: none;
+    color: #fee1c0;
+    
+}
+
+.button-select button:first-child {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child {
+    border-radius: 0 2rem 2rem 0;
+}
